@@ -15,6 +15,7 @@
 
 @property (nonatomic, strong) NSURLSessionDataTask *dataTask;
 
+
 @end
 
 @implementation ImageDownloader
