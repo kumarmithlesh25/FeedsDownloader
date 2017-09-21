@@ -24,6 +24,8 @@
     NSURLRequest *urlRequest = [NSURLRequest requestWithURL:[NSURL URLWithString:self.model.iconURLString]];
     self.dataTask = [[NSURLSession sharedSession] dataTaskWithRequest:urlRequest completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
         
+        
+        
         if (error == nil) {
             [[NSOperationQueue mainQueue] addOperationWithBlock: ^{
                 
