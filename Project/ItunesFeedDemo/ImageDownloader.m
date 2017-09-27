@@ -29,6 +29,8 @@
         if (error == nil) {
             [[NSOperationQueue mainQueue] addOperationWithBlock: ^{
                 
+                
+                
                 // Set appIcon and clear temporary data/image
                 UIImage *image = [[UIImage alloc] initWithData:data];
                 
