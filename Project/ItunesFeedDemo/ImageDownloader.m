@@ -29,7 +29,7 @@
         if (error == nil) {
             [[NSOperationQueue mainQueue] addOperationWithBlock: ^{
                 
-                
+                // This change is done on local branch. We'll now create a pull request and merge it back to master.
                 
                 // Set appIcon and clear temporary data/image
                 UIImage *image = [[UIImage alloc] initWithData:data];
